@@ -46,7 +46,7 @@ public class RoomDBOptions extends Activity implements View.OnClickListener{
         } else if(v.getId() == R.id.btn_delete){
 
         } else if(v.getId() == R.id.btn_show_all){
-
+            startActivity(new Intent(this, ShowAllRecords.class));
         }
     }
 }
